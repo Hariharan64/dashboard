@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "430616350843",
+    "firebase_url": "https://dashboard-4294a-default-rtdb.firebaseio.com",
+    "project_id": "dashboard-4294a",
+    "storage_bucket": "dashboard-4294a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430616350843:android:84d2e6a8533c8ef6ed52de",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmSJI29m7-kwMPtnarF1jjKGinu04BIGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
