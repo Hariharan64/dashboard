@@ -1,23 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <EditText
-        android:id="@+id/editTextPhoneNumber"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter phone number"
+        android:layout_height="48dp"
+        android:hint="Student Name" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextName"
+        android:hint="Phone Number"
         android:inputType="phone" />
 
+    <EditText
+        android:id="@+id/editTextCourse"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextPhone"
+        android:hint="Course Name" />
+
+    <EditText
+        android:id="@+id/editTextBook"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextCourse"
+        android:hint="Book Name" />
+
     <Button
-        android:id="@+id/buttonAddPhoneNumber"
+        android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextPhoneNumber"
-        android:layout_marginTop="16dp"
-        android:text="Add Phone Number" />
+        android:layout_below="@id/editTextBook"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSubmit"
+        android:text="View"
+        android:visibility="gone" />
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnOpenRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/btnSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Successful"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
 
 </RelativeLayout>
-
